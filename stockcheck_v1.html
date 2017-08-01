@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>stockholder</title>
+  <style type="text/css">
+    body{
+    	background-color: #3b5998;
+    }
+    td{
+    	background-color: white;
+    }
+    .items{
+      
+    }
+    .btn_container{
+     
+    }
+    table{
+    	width: 100%;
+    }
+    input{
+    	width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+      
+     <div class="items">
+            <table id="table" border="1">
+              <tr>
+                <th>Item Name</th>
+                <th><h3>Amount sold</h3></th>
+                <th><h3>Profit</h3></th>
+                <th><h4>profit(%)</h4></th>
+              </tr>
+               <!-- ======= ROW 1====== -->
+              <tr>
+                <td><input type="text" id="item_name_1" name=""></td>
+                 <td><input type="number" id="item_amount_sold_1" name="" style="width: 90%;">
+                 <button type="submit" onclick="">calc</button>
+                 </td>
+                 <td><span id="profit_1">0000</span></td>
+               <td><span id="profit_%_1">0000</span></td>
+              </tr>
+              <!-- =======END OF ROW 1============ -->
+
+
+               <!-- ======= ROW 2====== -->
+              <tr>
+                <td><input type="text" id="item_name_1" name=""></td>
+                 <td><input type="number" id="item_amount_sold_2" name="" style="width: 90%;">
+                 <button type="submit">calc</button>
+                 </td>
+                 <td><span id="profit_1">0000</span></td>
+               <td><span id="profit_%_1">0000</span></td>
+              </tr>
+              <!-- =======END OF ROW 2============ -->
+
+
+                <!-- ======= ROW 3====== -->
+              <tr>
+                <td><input type="text" id="item_name_1" name=""></td>
+                 <td><input type="number" id="item_amount_sold_3" name="" style="width: 90%;">
+                 <button type="submit">calc</button>
+                 </td>
+                 <td><span id="profit_1">0000</span></td>
+               <td><span id="profit_%_1">0000</span></td>
+              </tr>
+              <!-- =======END OF ROW 3============ -->
+
+
+                <!-- ======= ROW 4====== -->
+              <tr>
+                <td><input type="text" id="item_name_1" name=""></td>
+                 <td><input type="number" id="item_amount_sold_4" name="" style="width: 90%;">
+                 <button type="submit">calc</button>
+                 </td>
+                 <td><span id="profit_1">0000</span></td>
+               <td><span id="profit_%_1">0000</span></td>
+              </tr>
+              <!-- =======END OF ROW 4============ -->
+            </table>
+            <p style="text-align: center">*the only items in stock: pepsi, coke, bread, beans</p>
+        </div>
+       
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        var inputName1, inputName2, inputName3, inputName4, amountSold1, amountSold2, amountSold3, amountSold4;
+
+        // ======catching the values for item names input======
+        inputName1 =  $("#item_name_1");
+        inputName2 =  $("#item_name_2");
+        inputName3 =  $("#item_name_3");
+        inputName4 =  $("#item_name_4");
+         // ====== END OF catching the values for item names input======
+        
+         // ======catching the values for amount sold input======
+
+         amountSold1 =  $("#item_amount_sold_1");
+         amountSold2 =  $("#item_amount_sold_2");
+         amountSold3 =  $("#item_amount_sold_3");
+         amountSold4 =  $("#item_amount_sold_4");
+        // ====== END OF catching the valuesfor amount sold input======
+
+
+        function inputCalc(){
+            if(inputName1 == pepsi || inputName1 == Pepsi){
+                
+            }
+        }
+
+    </script>
+</body>
+</html>
